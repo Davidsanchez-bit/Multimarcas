@@ -8,7 +8,7 @@
     $contrasena =  $_POST ['contrasena'];
     
 
-    // Constrase encriptada
+    // Encriptación sha512 para contraseña
     $contrasena = hash ('sha512', $contrasena);
 
 
@@ -48,7 +48,7 @@
         echo '
             <script>
                 alert("Usuario Registrado exitosamente");
-                window.location = "../inicioSesion.html";
+                window.location = "../index.html";
             </script>
         ';
       
