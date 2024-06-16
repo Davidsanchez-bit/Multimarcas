@@ -1,67 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> Multimarcas BJ-FY </title>
-    <!-- código para enrutar la hoja de estilos-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimarcas BJ-FY</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    
-    <section class="titulo">
-        <h1> Multimarcas BJ-FY </h1>
-        <!-- código para titulo de la página-->
-    </section>
-    <nav class="navegacion">
-        <ul class="menu">
-
-            <li class="first-item">
-                <a href="#">
-                    <img src="img/home.png" alt="home" class="imagen">
-                    <span class="text-item"> INICIO </span>
-                    <span class="down-item"></span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="img/nosotros.png" alt="grupo" class="imagen">
-                    <span class="text-item"> NOSOTROS </span>
-                    <span class="down-item"></span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="img/productos.png" alt="productos" class="imagen">
-                    <span class="text-item"> PRODUCTOS </span>
-                    <span class="down-item"></span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="img/chatea.png" alt="chatea con nosotros" class="imagen">
-                    <span class="text-item"> CHATEA CON NOSOTROS</span>
-                    <span class="down-item"></span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="img/colaboradores.png" alt="colaboradores" class="imagen">
-                    <span class="text-item"> COLABORADORES </span>
-                    <span class="down-item"></span>
-                </a>
-            </li>
-
-
-        </ul>
-       
-    </nav>
-    <hr>
-    <h2> Productos Ofrecidos</h2>
-    <p> Multimarcas Bj-FY tiene dos lineas de prodcutos para ofrecer a los clientes, Tenemos <strong> <a href="#"> Brisa Jabonosa </a>  </strong>que es una linea de porductos de aseo para el hogar, en esta marca encontraras todo lo relacionado con el aseo y sus productos derivados.  En <strong> <a href="#"> Fruyogu </a>  </strong>encuentras productos lacteos de la mejor calidad tales como Yogures con ricos sabores frutales de temporada, Kumis caseros entre otros.  </p>
-    <!-- la reseña de productos ofrecidos es necesaria mejorar con texto más a fin-->
-    <br>
-   <a href="inicioSesion.html"> inicio de sesión</a>
-    
+    <header>
+        <section class="titulo">
+            <h1>Multimarcas BJ-FY</h1>
+        </section>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="#"><img src="img/home.png" alt="home" class="imagen"><span class="text-item">INICIO</span></a></li>
+                <li><a href="#"><img src="img/nosotros.png" alt="grupo" class="imagen"><span class="text-item">NOSOTROS</span></a></li>
+                <li><a href="#"><img src="img/productos.png" alt="productos" class="imagen"><span class="text-item">PRODUCTOS</span></a></li>
+                <li><a href="#"><img src="img/chatea.png" alt="chatea con nosotros" class="imagen"><span class="text-item">CHATEA CON NOSOTROS</span></a></li>
+                <li><a href="#"><img src="img/colaboradores.png" alt="colaboradores" class="imagen"><span class="text-item">COLABORADORES</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="productos">
+            <h2>Productos Ofrecidos</h2>
+            <p>Multimarcas BJ-FY tiene dos líneas de productos para ofrecer a los clientes:</p>
+            <ul>
+                <li><strong><a href="galeriaBrisaJabonosa.html">Brisa Jabonosa</a></strong>: Una línea de productos de aseo para el hogar.</li>
+                <li>
+                    <strong><a href="galeriaFruyogu.html">Fruyogu</a></strong>: Nuestros Productos
+                    <ul>
+                        <li><strong>Queso</strong>: Disfrute de una amplia variedad de quesos frescos y maduros, elaborados con técnicas tradicionales que garantizan un sabor único e inigualable. Desde el queso campesino suave y cremoso hasta el queso costeño con su característico sabor salado, nuestros quesos son el complemento perfecto para cualquier comida.</li>
+                        <li><strong>Yogurt</strong>: Ofrecemos yogures naturales y con frutas de temporada, ricos en probióticos y elaborados sin conservantes ni colorantes artificiales. Nuestro yogurt es ideal para un desayuno saludable, una merienda nutritiva o como ingrediente versátil en sus recetas favoritas.</li>
+                        <li><strong>Kumis</strong>: El kumis de Multimarcas BJ-FY es un producto artesanal fermentado, conocido por sus beneficios para la salud digestiva. Con un sabor ligeramente ácido y refrescante, es una bebida tradicional que encantará a toda la familia.</li>
+                        <li><strong>Yogurt Casero con Frutas de Temporada</strong>: Nuestro yogurt casero con frutas de temporada es una verdadera delicia. Hecho a mano con dedicación y utilizando solo las frutas más frescas de cada estación, este producto combina la cremosidad del yogurt con el dulzor natural de las frutas colombianas, ofreciendo una experiencia de sabor única.</li>
+                 
+        </section>
+         <section class="social-media">
+            <h3>Síguenos en nuestras redes sociales</h3>
+            <ul>
+                <li><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="img/twitter.png" alt="Twitter"></a></li>
+                <li><a href="#"><img src="img/instagram.png" alt="Instagram"></a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Multimarcas BJ-FY. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:info@multimarcasbjfy.com">info@multimarcasbjfy.com</a></p>
+        <a href="inicioSesion.html">Inicio de sesión</a>
+    </footer>
 </body>
-</html> 
+</html>
